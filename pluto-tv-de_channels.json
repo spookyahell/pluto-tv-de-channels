@@ -481,11 +481,107 @@
       ]
     },
     {
+      "id": "6298db4b4cb2e500076fcb7d",
+      "slug": "pluto-tv-liebt-elvis-de",
+      "name": "Pluto TV liebt Elvis",
+      "hash": "#PlutoTVliebt Elvis",
+      "number": 30,
+      "summary": "Der King of Rock 'n' Roll kommt zu Pluto TV! Nur f\u00fcr kurze Zeit zeigen wir auf diesem Sender rund um die Uhr einige der kultigsten Filme mit Elvis.",
+      "plutoOfficeOnly": false,
+      "featured": false,
+      "isStitched": true,
+      "stitched": {
+        "paths": [
+          {
+            "type": "hls",
+            "path": "/stitch/hls/channel/6298db4b4cb2e500076fcb7d/master.m3u8"
+          }
+        ]
+      },
+      "images": [
+        {
+          "type": "colorLogoPNG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/colorLogoPNG.png"
+        },
+        {
+          "type": "colorLogoSVG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/colorLogoSVG.svg"
+        },
+        {
+          "type": "solidLogoPNG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/solidLogoPNG.png"
+        },
+        {
+          "type": "solidLogoSVG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/solidLogoSVG.svg"
+        },
+        {
+          "type": "logo",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/logo.png?fit=fill&fm=png&h=80&w=280"
+        },
+        {
+          "type": "featuredImage",
+          "style": "tall",
+          "ratio": 1.7777777777777777,
+          "defaultWidth": 1560,
+          "defaultHeight": 878,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=900&q=75&w=1600"
+        },
+        {
+          "type": "hero",
+          "style": "square",
+          "ratio": 1,
+          "defaultWidth": 660,
+          "defaultHeight": 660,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/thumbnail.jpg?fill=blur&fit=fill&fm=jpg&h=660&q=75&w=660"
+        },
+        {
+          "type": "tileColor",
+          "style": "wide",
+          "ratio": 0.25,
+          "defaultWidth": 660,
+          "defaultHeight": 150,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/tile.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
+        },
+        {
+          "type": "tileGrayscale",
+          "style": "wide",
+          "ratio": 0.25,
+          "defaultWidth": 660,
+          "defaultHeight": 150,
+          "url": "https://images.pluto.tv/channels/6298db4b4cb2e500076fcb7d/tileGrayscale.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
+        }
+      ],
+      "categoryIDs": [
+        "618efec94b1ec000075de7cb"
+      ]
+    },
+    {
       "id": "61fbfa1a9e38ec0007a395b7",
       "slug": "dittsche-de",
       "name": "Dittsche",
       "hash": "#Dittsche",
-      "number": 30,
+      "number": 35,
       "summary": "Der arbeitslose Dittsche taucht im Jogginganzug in einer Imbissbude auf und reflektiert auf seine ganz eigene, abwegige, manchmal traurige, oft komische, skurrile Art aktuelle Themen im improvisierten Gespr\u00e4ch mit anderen.",
       "plutoOfficeOnly": false,
       "featured": true,
@@ -570,102 +666,6 @@
           "defaultWidth": 660,
           "defaultHeight": 150,
           "url": "https://images.pluto.tv/channels/61fbfa1a9e38ec0007a395b7/tileGrayscale.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
-        }
-      ],
-      "categoryIDs": [
-        "618efec94b1ec000075de7cb"
-      ]
-    },
-    {
-      "id": "6305ca798bd95300072d2f93",
-      "slug": "filmgold-de",
-      "name": "Filmgold",
-      "hash": "#Filmgold",
-      "number": 35,
-      "summary": "Freut euch auf glanzvolle Unterhaltung mit dem FILMGOLD Streaming-Angebot. Unsere Inhalte bieten eine Prise Nostalgie gepaart mit ganz viel Gef\u00fchl und Humor \u2013 immer und \u00fcberall \u2013 ganz auf eure Bed\u00fcrfnisse zugeschnitten",
-      "plutoOfficeOnly": false,
-      "featured": false,
-      "isStitched": true,
-      "stitched": {
-        "paths": [
-          {
-            "type": "hls",
-            "path": "/stitch/hls/channel/6305ca798bd95300072d2f93/master.m3u8"
-          }
-        ]
-      },
-      "images": [
-        {
-          "type": "colorLogoPNG",
-          "style": "wide",
-          "ratio": 0.2857142857142857,
-          "defaultWidth": 280,
-          "defaultHeight": 80,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/colorLogoPNG.png"
-        },
-        {
-          "type": "colorLogoSVG",
-          "style": "wide",
-          "ratio": 0.2857142857142857,
-          "defaultWidth": 280,
-          "defaultHeight": 80,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/colorLogoSVG.svg"
-        },
-        {
-          "type": "solidLogoPNG",
-          "style": "wide",
-          "ratio": 0.2857142857142857,
-          "defaultWidth": 280,
-          "defaultHeight": 80,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/solidLogoPNG.png"
-        },
-        {
-          "type": "solidLogoSVG",
-          "style": "wide",
-          "ratio": 0.2857142857142857,
-          "defaultWidth": 280,
-          "defaultHeight": 80,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/solidLogoSVG.svg"
-        },
-        {
-          "type": "logo",
-          "style": "wide",
-          "ratio": 0.2857142857142857,
-          "defaultWidth": 280,
-          "defaultHeight": 80,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/logo.png?fit=fill&fm=png&h=80&w=280"
-        },
-        {
-          "type": "featuredImage",
-          "style": "tall",
-          "ratio": 1.7777777777777777,
-          "defaultWidth": 1560,
-          "defaultHeight": 878,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=900&q=75&w=1600"
-        },
-        {
-          "type": "hero",
-          "style": "square",
-          "ratio": 1,
-          "defaultWidth": 660,
-          "defaultHeight": 660,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/thumbnail.jpg?fill=blur&fit=fill&fm=jpg&h=660&q=75&w=660"
-        },
-        {
-          "type": "tileColor",
-          "style": "wide",
-          "ratio": 0.25,
-          "defaultWidth": 660,
-          "defaultHeight": 150,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/tile.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
-        },
-        {
-          "type": "tileGrayscale",
-          "style": "wide",
-          "ratio": 0.25,
-          "defaultWidth": 660,
-          "defaultHeight": 150,
-          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/tileGrayscale.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
         }
       ],
       "categoryIDs": [
@@ -1532,6 +1532,99 @@
           "defaultWidth": 660,
           "defaultHeight": 150,
           "url": "https://images.pluto.tv/channels/61fbf7cd66401100074ef533/tileGrayscale.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
+        }
+      ]
+    },
+    {
+      "id": "6305ca798bd95300072d2f93",
+      "slug": "filmgold-de",
+      "name": "Filmgold",
+      "hash": "#Filmgold",
+      "number": 76,
+      "summary": "Freut euch auf glanzvolle Unterhaltung mit dem FILMGOLD Streaming-Angebot. Unsere Inhalte bieten eine Prise Nostalgie gepaart mit ganz viel Gef\u00fchl und Humor \u2013 immer und \u00fcberall \u2013 ganz auf eure Bed\u00fcrfnisse zugeschnitten",
+      "plutoOfficeOnly": false,
+      "featured": false,
+      "isStitched": true,
+      "stitched": {
+        "paths": [
+          {
+            "type": "hls",
+            "path": "/stitch/hls/channel/6305ca798bd95300072d2f93/master.m3u8"
+          }
+        ]
+      },
+      "images": [
+        {
+          "type": "colorLogoPNG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/colorLogoPNG.png"
+        },
+        {
+          "type": "colorLogoSVG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/colorLogoSVG.svg"
+        },
+        {
+          "type": "solidLogoPNG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/solidLogoPNG.png"
+        },
+        {
+          "type": "solidLogoSVG",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/solidLogoSVG.svg"
+        },
+        {
+          "type": "logo",
+          "style": "wide",
+          "ratio": 0.2857142857142857,
+          "defaultWidth": 280,
+          "defaultHeight": 80,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/logo.png?fit=fill&fm=png&h=80&w=280"
+        },
+        {
+          "type": "featuredImage",
+          "style": "tall",
+          "ratio": 1.7777777777777777,
+          "defaultWidth": 1560,
+          "defaultHeight": 878,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=900&q=75&w=1600"
+        },
+        {
+          "type": "hero",
+          "style": "square",
+          "ratio": 1,
+          "defaultWidth": 660,
+          "defaultHeight": 660,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/thumbnail.jpg?fill=blur&fit=fill&fm=jpg&h=660&q=75&w=660"
+        },
+        {
+          "type": "tileColor",
+          "style": "wide",
+          "ratio": 0.25,
+          "defaultWidth": 660,
+          "defaultHeight": 150,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/tile.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
+        },
+        {
+          "type": "tileGrayscale",
+          "style": "wide",
+          "ratio": 0.25,
+          "defaultWidth": 660,
+          "defaultHeight": 150,
+          "url": "https://images.pluto.tv/channels/6305ca798bd95300072d2f93/tileGrayscale.jpg?fill=blur&fit=fill&fm=jpg&h=150&q=75&w=600"
         }
       ]
     },
