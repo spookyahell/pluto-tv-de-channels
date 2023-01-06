@@ -12,6 +12,11 @@ The following file contains the raw data: [pluto-tv-de_channels.json](pluto-tv-d
 
 Where inserted, the item `featuredOrder` has been removed from the individual channels as it seems to be a ever changing value.
 
+## Changes to PlutoTV channels*
+*_since the existance of this project_
+### January 2023
+* 2023-01-06: [new channel] "Pluto TV liebt Elvis" has been added (pop-up channel: _declared to be short-lived in summary_)
+
 ## Channels on PlutoTV in Germany
 
 <table>
@@ -65,5 +70,5 @@ for channel in jso['data']:
 
 README + '\n</table>'
 
-with open('README.test.md', 'w', encoding = 'utf-8-sig') as f:
+with open('README.md', 'w', encoding = 'utf-8-sig') as f:
 	f.write(README)
