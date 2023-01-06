@@ -7,7 +7,8 @@ The following file contains the raw data: [pluto-tv-de_channels.json](pluto-tv-d
 
 Where inserted, the item `featuredOrder` has been removed from the individual channels as it seems to be a ever changing value.
 
-## Changes to PlutoTV (since the existance of this project)
+## Changes to PlutoTV channels*
+*_since the existance of this project_
 ### January 2023
 * 2023-01-06: [new channel] "Pluto TV liebt Elvis" has been added (pop-up channel: _declared to be short-lived in summary_)
 
