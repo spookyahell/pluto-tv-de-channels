@@ -26,7 +26,9 @@ The way it works is:<br>
 
 ## Channels on PlutoTV in Germany
 
-<table>
+'''
+
+table_heading = '''<table>
 	<tr>
 		<th>Channel logo</th>
 		<th>Channel name</th>
@@ -35,8 +37,29 @@ The way it works is:<br>
 		<th>id #</th>
 		<th>Summary</th>
 		<th>All image links</th>
-	</tr>'''
-	
+	</tr>'''	
+
+
+html_source = '''<html>
+<head>
+	<title>Pluto-TV (DE) Channels</title>
+	<style>body {background-color: black; color:white}
+table {background-color: gray}
+table td,th {background-color: black}
+table a:link {color:green}
+table a:visited {color:orange}
+table a:hover {color:grey}
+table a:active {color:yellow}
+	</style>
+</head>
+<body>
+<h1>Channels on PlutoTV in Germany</h1>
+
+'''
+
+html_source += table_heading
+README += table_heading
+
 jso = json.loads(file_contents)
 
 for channel in jso['data']:
@@ -61,9 +84,9 @@ for channel in jso['data']:
 			'''
 		channel_image_links_html += f'<a href="{image_url}" target="_blank">{image_type}</a>{new_line}'
 
-	README += f'''
+	add_column = f'''
 	<tr>
-		<td><img src="{color_logo_src}"></td>
+		<td><img src="{color_logo_src}" width="200px"></td>
 		<td>{channel_name}</td>
 		<td>{channel_slug}</td>
 		<td>{channel_hash}</td>
@@ -72,8 +95,15 @@ for channel in jso['data']:
 		<td>
 			{channel_image_links_html}
 	</tr>'''
+	
+	README += add_column
+	html_source += add_column
 
 README + '\n</table>'
+html_source + '\n</table>\n</body>'
 
 with open('README.md', 'w', encoding = 'utf-8-sig') as f:
 	f.write(README)
+	
+with open('index.html', 'w', encoding = 'utf-8-sig') as f:
+	f.write(html_source)
