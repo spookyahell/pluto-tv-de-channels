@@ -16,7 +16,8 @@ Where inserted, the item `featuredOrder` has been removed from the individual ch
 It's possible to access the channels m3u8 by inserting the id # of the channel.
 
 The way it works is:<br>
-`https://service-stitcher-ipv4.clusters.pluto.tv/v2/stitch/hls/channel/{channel_id}/master.m3u8`
+`https://service-stitcher-ipv4.clusters.pluto.tv/v2/stitch/hls/channel/{channel_id}/master.m3u8`<br>
+(Replace `{channel_id}` with the respective value of the  id # field of the channel.)
 
 ## Changes to PlutoTV channels*
 *_since the existance of this project_
