@@ -12,6 +12,12 @@ The following file contains the raw data: [pluto-tv-de_channels.json](pluto-tv-d
 
 Where inserted, the item `featuredOrder` has been removed from the individual channels as it seems to be a ever changing value.
 
+## Access the channels m3u8 streams
+It's possible to access the channels m3u8 by inserting the id # of the channel.
+
+The way it works is:<br>
+`https://service-stitcher-ipv4.clusters.pluto.tv/v2/stitch/hls/channel/{channel_id}/master.m3u8`
+
 ## Changes to PlutoTV channels*
 *_since the existance of this project_
 ### January 2023
@@ -27,7 +33,6 @@ Where inserted, the item `featuredOrder` has been removed from the individual ch
 		<th>Channel hash</th>
 		<th>id #</th>
 		<th>Summary</th>
-		<th>Path</th>
 		<th>All image links</th>
 	</tr>'''
 	
@@ -63,7 +68,6 @@ for channel in jso['data']:
 		<td>{channel_hash}</td>
 		<td>{channel_id}</td>
 		<td>{channel_summary}</td>
-		<td><code>{m3u8_path}</code></td>
 		<td>
 			{channel_image_links_html}
 	</tr>'''
