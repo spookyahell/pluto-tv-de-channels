@@ -1,4 +1,6 @@
-﻿# pluto-tv-de-channels
+# ARCHIVED FOR NOW! - MAY RESUME IT LATER!
+
+# pluto-tv-de-channels
 **Description:** Pluto TV (DE) Channel information
 
 **Disclaimer:** All information is publicly accessible for anyone with Germany IP address
